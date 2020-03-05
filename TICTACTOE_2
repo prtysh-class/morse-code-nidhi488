@@ -1,0 +1,18 @@
+let b;
+let p1;
+let p2;
+let turn;
+let score_div;
+function setup() 
+{
+  p1=newPlayer("X");
+  p2=newPlayer2("o");
+  createCanvas(400, 400);
+  score_div = createDiv('').size(100, 25);
+  b = new Board(3, p1, p2); 
+}
+
+function draw() {
+  background(220);
+  b.display();
+}
