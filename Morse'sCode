@@ -1,0 +1,124 @@
+var inp = "human";
+var i;
+
+function setup() {
+  createCanvas(400, 400);
+  for (let i = 0; i < inp.length; i++) {
+    console.log(inp[i]);
+    wrd((inp[i]));
+  }
+}
+
+function draw()
+{
+  background(220);
+}
+
+function wrd(x) 
+{
+  if (x == 'a')
+  {
+    console.log(".- ")
+  }
+  if (x == 'b') 
+  {
+    console.log("-... ")
+  }
+  if (x == 'c')
+  {
+    console.log("-.-. ")
+  }
+  if (x == 'd') {
+    console.log("-.. ")
+  }
+  if (x == 'e')
+  {
+    console.log(". ")
+  }
+  if (x == 'f')
+  {
+    console.log("..-. ")
+  }
+  if (x == 'g') 
+  {
+    console.log("--. ")
+  }
+  if (x == 'h')
+  {
+    console.log(".... ")
+  }
+  if (x == 'i')
+  {
+    console.log("..")
+  }
+  if (x == 'j') 
+  {
+    console.log(".--- ")
+  }
+  if (x == 'k')
+  {
+    console.log("-.- ")
+  }
+  if (x == 'l')
+  {
+    console.log(".-.. ")
+  }
+  if (x == 'm'); 
+  {
+    console.log("--")
+  }
+  if (x == 'n') 
+  {
+    console.log("-.")
+  }
+  if (x == 'o') 
+  {
+    console.log("--- ")
+  }
+  if (x == 'p')
+  {
+    console.log(".--. ")
+  }
+  if (x == 'q')
+  {
+    console.log("--.- ")
+  }
+  if (x == 'r')
+  {
+    console.log(".-.")
+  }
+  if (x == 's')
+  {
+    console.log("... ")
+  }
+
+  if (x == 't')
+  {
+    console.log("-")
+  }
+
+  if (x == 'u') 
+  {
+  console.log("..- ")
+  }
+  if (x == 'v') 
+  {
+  console.log("...- ")
+  }
+  if (x == 'w')
+  {
+  console.log(".-- ")
+  }
+  if (x == 'x') 
+  {
+  console.log("-..- ")
+  }
+  if (x == 'y') 
+  {
+  console.log("-.-- ")
+  }
+  if (x == 'z') 
+  {
+  console.log("--.. ")
+  }
+}
